@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 100%;
+}
+
+.quadrant {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.Lab,
+.XYZ,
+.RGB {
+  font-weight: bold;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}

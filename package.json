@@ -1,0 +1,37 @@
+{
+  "name": "visually-random-color",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "license": "MIT",
+  "author": "damon314159 <126731021+damon314159@users.noreply.github.com>",
+  "homepage": "https://github.com/damon314159/visually-random-color",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damon314159/visually-random-color.git"
+  },
+  "description": "A simple, lightweight package with no dependencies to generate a random color with as little visual skew as possible",
+  "keywords": [
+    "random",
+    "color",
+    "random-color",
+    "visually-random-color",
+    "colour",
+    "cielab",
+    "xyz",
+    "rgb",
+    "srgb",
+    "color space",
+    "conversion",
+    "color model",
+    "profile",
+    "gamut",
+    "rendering",
+    "utility"
+  ],
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
